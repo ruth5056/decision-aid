@@ -84,7 +84,7 @@ export default function HomePage() {
               cta="開始比較"
             />
             <Card
-              title="您的凍卵考量與摘要"
+              title="您的凍卵考量"
               desc="協助釐清凍您對凍卵的考量，並且可以匯出列印摘要帶去門診討論。"
               href="/values"
               cta="前往我的凍卵考量"
