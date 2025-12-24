@@ -30,7 +30,7 @@ export default function RootLayout({
                 凍卵計算機
               </Link>
               <Link href="/values" className="text-blue-600 hover:underline">
-                價值澄清
+                我的凍卵考量
               </Link>
               <Link href="/summary" className="text-blue-600 hover:underline">
                 摘要
@@ -44,7 +44,7 @@ export default function RootLayout({
 
         <footer className="border-t bg-white">
           <div className="max-w-4xl mx-auto px-6 py-4 text-sm text-gray-600">
-            本工具僅供決策討論之用，不取代醫師諮詢。
+            本工具僅供凍卵決策討論之用，無法取代專業醫師諮詢。
           </div>
         </footer>
       </body>

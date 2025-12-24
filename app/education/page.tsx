@@ -234,6 +234,17 @@ export default function EducationPage() {
           }
         </Para>
       </Section>
+
+      <div className="flex justify-between">
+      <Link href="/" className="text-blue-600 underline">
+        ← 回到首頁
+       </Link>
+      <Link href="/values" className="text-blue-600 underline">
+    前往凍卵介紹 →
+       </Link>
+</div>
+
+
     </main>
   );
 }
