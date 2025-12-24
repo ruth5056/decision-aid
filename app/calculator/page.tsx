@@ -253,7 +253,7 @@ p(Blast) = 0.85 × exp(2.8043 – 0.1112 × Age) if Age ≥36
           ← 回到選項比較
         </Link>
         <Link href="/values" className="text-blue-600 underline">
-          前往價值澄清 →
+          前往我的凍卵考量 →
         </Link>
       </div>
     </main>

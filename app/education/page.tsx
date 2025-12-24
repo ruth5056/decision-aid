@@ -218,9 +218,8 @@ export default function EducationPage() {
       <Section title="我希望保存生育力，我有什麼選擇呢？">
         <Numbered
           items={[
-            "立刻接受凍卵療程，盡快保存生育力",
-            "抽血檢測卵巢功能，若卵巢功能正常，可在30-37歲之間考慮接受凍卵療程",
-            "不要凍卵，或是解凍後的卵子不足以生產，未來可考慮使用捐贈的卵子生育",
+            "接受凍卵療程，盡快保存生育力",
+            "不要凍卵，未來或嘗試自然受孕，或考慮使用捐贈的卵子生育",
           ]}
         />
 
@@ -239,8 +238,8 @@ export default function EducationPage() {
       <Link href="/" className="text-blue-600 underline">
         ← 回到首頁
        </Link>
-      <Link href="/values" className="text-blue-600 underline">
-    前往凍卵介紹 →
+      <Link href="/calculator" className="text-blue-600 underline">
+        前往「凍卵」或「不凍卵」→
        </Link>
 </div>
 

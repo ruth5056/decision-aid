@@ -78,16 +78,16 @@ export default function HomePage() {
               cta="開始試算"
             />
             <Card
-              title="選項比較"
-              desc="以「優點／缺點／不確定性」比較：立刻凍卵、先檢測再評估、未來考慮捐卵等替代方案。"
+              title="「凍卵」或「不凍卵」"
+              desc="以「優點／缺點／不確定性」比較「凍卵」或「不凍卵」兩種選擇"
               href="/options"
               cta="開始比較"
             />
             <Card
-              title="價值澄清與摘要"
-              desc="如果你有做 /values（價值澄清），可以在 /summary 看到摘要並列印帶去門診討論。"
+              title="您的凍卵考量與摘要"
+              desc="協助釐清凍您對凍卵的考量，並且可以匯出列印摘要帶去門診討論。"
               href="/values"
-              cta="前往價值澄清"
+              cta="前往我的凍卵考量"
             />
           </div>
         </section>

@@ -105,22 +105,6 @@ export default function OptionsPage() {
         ]}
       />
 
-      <OptionCard
-        title="抽血檢測卵巢功能，若卵巢功能正常，可在30–37歲之間考慮接受凍卵療程"
-        pros={[
-          "了解目前的卵巢功能，有足夠的考慮與準備期",
-          "短期不需承擔凍卵療程的副作用、風險和費用",
-          "若後續選擇凍卵，仍可能在相對合適的年齡進行凍卵療程",
-        ]}
-        cons={[
-          "延後凍卵可能錯過卵子品質較佳的時機",
-          "AMH檢測僅能反映當下卵巢庫存量，無法預測未來變化，也無法檢測卵子品質",
-        ]}
-        uncertainties={[
-          "卵巢功能下降的速度因人而異，未來仍可能快速下降",
-          "未來是否能如期安排凍卵療程，仍受工作、健康與生活因素影響",
-        ]}
-      />
 
       <OptionCard
         title="不要凍卵，未來或嘗試自然受孕，或考慮使用捐贈的卵子生育"
@@ -143,6 +127,17 @@ export default function OptionsPage() {
           不同選擇各有其優點、限制與不確定性，適合與否取決於個人年齡、生育計畫、身體狀況與價值觀，建議與生殖內分泌專科醫師充分討論後再做決定。
         </p>
       </section>
+
+      <div className="flex justify-between">
+      <Link href="/education" className="text-blue-600 hover:underline">
+            ← 回到凍卵介紹
+          </Link>
+      <Link href="/calculator" className="text-blue-600 underline">
+            前往凍卵計算機→
+       </Link>
+      </div>
+
+
     </main>
   );
 }

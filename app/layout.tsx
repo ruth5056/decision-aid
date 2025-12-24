@@ -24,9 +24,9 @@ export default function RootLayout({
                 凍卵介紹
               </Link>
               <Link href="/options" className="text-blue-600 hover:underline">
-                生育力保存選項
+                凍？不凍？
               </Link>       
-                <Link href="/calculator" className="text-blue-600 hover:underline">
+              <Link href="/calculator" className="text-blue-600 hover:underline">
                 凍卵計算機
               </Link>
               <Link href="/values" className="text-blue-600 hover:underline">
