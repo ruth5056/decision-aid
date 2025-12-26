@@ -76,9 +76,9 @@ export default function EducationPage() {
   return (
     <main className="space-y-6">
       <header className="rounded-3xl bg-teal-700 px-6 py-8 text-white text-center">
-        <h1 className="text-4xl font-extrabold tracking-tight">我要凍卵嗎？</h1>
+        <h1 className="text-4xl font-extrabold tracking-tight">什麼是計畫性凍卵？</h1>
         <p className="mt-2 text-lg font-semibold opacity-95">
-          給考慮凍卵女性的衛教說明
+          凍卵介紹
         </p>
       </header>
 
@@ -186,12 +186,29 @@ export default function EducationPage() {
             "排卵刺激：注射賀爾蒙藥物大約連續10~12天，幫助多顆卵子一起成熟",
             "追蹤卵巢反應：療程期間需回診2-4次，透過抽血與超音波追蹤卵泡發育狀況。",
             "取卵手術：卵子成熟後，安排門診手術接受靜脈麻醉進行取卵手術，約15~60分鐘。 ",
-            "冷凍卵子：取出的卵子會由胚胎師進行挑選與檢查，健康的成熟卵子會當天立即冷凍保存。 �",
+            "冷凍卵子：取出的卵子會由胚胎師進行挑選與檢查，健康的成熟卵子會當天立即冷凍保存。 ",
           ]}
         />
       </Section>
 
-      {/* 6) 凍卵要多少錢? */}
+      {/* 6) 凍卵有風險嗎？需要注意什麼？ */}
+      <Section title="凍卵有風險嗎？需要注意什麼？">
+        <Para>
+          {
+            "在經驗豐富的生殖中心進行凍卵，整體是相當安全的，但仍有一些可能的副作用: "
+          }
+        </Para>
+        <Numbered
+          items={[
+            "卵巢過度刺激（OHSS）： \n 少數人(3-5%) 可能出現腹脹、腹水等情況。醫師會依個人反應調整藥物，降低風險。",
+            "手術過程有極低機率（發生率小於1%）：\n 導致出血、感染或鄰近器官損傷。",
+            "麻醉相關風險：\n 取卵手術需施行靜脈麻醉，雖屬低風險，但仍有少數可能出現頭暈、噁心等麻醉副作用",
+            "卵巢扭轉：\n 療程中須避免劇烈運動，預防卵巢扭轉。",
+          ]}
+        />
+      </Section>
+
+      {/* 7) 凍卵要多少錢? */}
       <Section title="凍卵要多少錢?">
         <Para>
           {
@@ -200,7 +217,7 @@ export default function EducationPage() {
         </Para>
       </Section>
 
-      {/* 7) 凍卵可以保存多久?要怎麼使用? */}
+      {/* 8) 凍卵可以保存多久?要怎麼使用? */}
       <Section title="凍卵可以保存多久?要怎麼使用?">
         <Para>
           {
@@ -214,7 +231,7 @@ export default function EducationPage() {
         </Para>
       </Section>
 
-      {/* 8) 我還有其他選擇嗎? */}
+      {/* 9) 我還有其他選擇嗎? */}
       <Section title="我希望保存生育力，我有什麼選擇呢？">
         <Numbered
           items={[
@@ -225,7 +242,7 @@ export default function EducationPage() {
 
       </Section>
 
-      {/* 9) 結語 */}
+      {/* 10) 結語 */}
       <Section title="凍卵可以幫助妳提高未來擁有自己親生孩子的機會。 ">
         <Para>
           {
@@ -241,7 +258,7 @@ export default function EducationPage() {
       <Link href="/calculator" className="text-blue-600 underline">
         前往「凍卵」或「不凍卵」→
        </Link>
-</div>
+      </div>
 
 
     </main>
